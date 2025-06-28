@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "KT",
+		"ingredients": {
+			"T": { "type": "item", "code": "game:thatch", "name": "type", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "item", "code": "game:drygrass", "quantity": 1 }
+	}
+]

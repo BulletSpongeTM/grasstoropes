@@ -1,0 +1,118 @@
+{
+	"code": "grasschest",
+	"class": "BlockGenericTypedContainer",
+	"entityclass": "GenericTypedContainer",
+	"attributes": {
+		"inventoryClassName": "basket",
+		"defaultType": "grass",
+		"openSound": "game:sounds/block/basketopen",
+		"closeSound": "game:sounds/block/basketclose",
+		"types": ["grass"],
+		"drop": {
+			"grass": true
+		},
+		"quantitySlots": {
+			"grass": 8
+		},
+		"dialogTitleLangCode": {
+			"grass": "basketcontents"
+		},
+		"storageType": {
+			"grass": 189
+		},
+		"retrieveOnly": {
+			"grass": false
+		},
+		"attachableCategoryCode": {
+			"grass": "basket"
+		},
+		"shape": {
+			"grass": "game:block/reed/basket-normal"
+		},
+		"creatureContainedShape": {
+			"grass": "game:block/reed/basket-full"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [
+		{"name": "BoatableGenericTypedContainer" },
+		{"name": "Lockable" }, 
+		{"name": "CreatureContainer" }, 
+		{"name": "Container"}, 
+		{"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" }}
+	],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "grasstoropes" ],
+				"stacks": [
+					{ "type": "block", "code": "grasstoropes:grasschest-east", "attributes": { "type": "grass" } }
+				]
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"shapeInventory": { "base": "game:block/reed/basket-normal", "rotateY": 270 },
+	"shapeByType": {
+		"*-north": { "base": "game:block/reed/basket-normal", "rotateY": 0 },
+		"*-east": { "base": "game:block/reed/basket-normal", "rotateY": 270 },
+		"*-west": { "base": "game:block/reed/basket-normal", "rotateY": 90 },
+		"*-south": { "base": "game:block/reed/basket-normal", "rotateY": 180 }
+	},
+
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	"textures": {
+		"grass-sidesWE": { "base": "grasstoropes:block/grasschest-westeast" },
+		"grass-sidesSN": { "base": "grasstoropes:block/grasschest-northsouth" },
+		"grass-lid": { "base": "grasstoropes:block/grasschest-lid" }
+	},
+	"blockmaterial": "Wood",
+	"replaceable": 900,
+	"resistance": 2,
+	"lightAbsorption": 0,
+	"sideAo": { "all": false },
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"collisionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.8125, "y2": 0.5, "z2": 0.875,
+		"rotateYByType": {
+			"*-north": 270,
+			"*-east": 180,
+			"*-south": 90,
+			"*-west": 0
+		}
+	},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.8125, "y2": 0.5, "z2": 0.875,
+		"rotateYByType": {
+			"*-north": 270,
+			"*-east": 180,
+			"*-south": 90,
+			"*-west": 0
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.5, "z": -0.3 },
+		"rotation": { "x": 0, "y": 90, "z": -102 },
+		"scale": 0.56
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 1.3
+	}
+}

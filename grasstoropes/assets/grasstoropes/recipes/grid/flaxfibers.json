@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "B__,BBB,__B",
+		"ingredients": {
+			"B": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "item", "code": "game:flaxfibers", "quantity": 1 }
+	}
+]

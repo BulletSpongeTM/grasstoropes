@@ -1,0 +1,29 @@
+[
+	{
+		"ingredientPattern": "B,H",
+		"ingredients": {
+			"B": { "type": "block", "code": "game:flower-horsetail-free", "quantity": 4 },
+			"H": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 2 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-horsetail", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "SBS,_C_",
+		"ingredients": {
+			"C": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 2 },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "game:bowl-fired" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},		
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4  }
+	}
+]

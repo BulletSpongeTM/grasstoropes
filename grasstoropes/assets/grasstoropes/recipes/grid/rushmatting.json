@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "__K,LL_,LL_",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true },
+			"L": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rushmat"  }
+	}
+]

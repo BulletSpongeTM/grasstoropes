@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "SSS,BBB,SSS",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick" },
+			"B": { "type": "item", "code": "grasstoropes:grassbundle" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:shield-crude", "quantity": 1  }
+	}
+]

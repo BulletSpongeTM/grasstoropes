@@ -1,0 +1,22 @@
+[
+	{
+		"ingredientPattern": "CPC,CCC",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": ["medium", "large", "huge" ], "quantity": 1 },
+			"C": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 3 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:hunterbackpack"  }
+	},
+	{
+		"ingredientPattern": "CSC,CCC",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:hide-pelt-small", "quantity": 3 },
+			"C": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 3 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:hunterbackpack"  }
+	}
+]

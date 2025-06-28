@@ -1,0 +1,22 @@
+[
+	{
+		"ingredientPattern": "LLL,L_L,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 3 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "grasstoropes:grasschest-east", "attributes": { "type": "grass" }  }
+	},
+	{
+		"ingredientPattern": "KC",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true },
+			"C": { "type": "block", "code": "grasstoropes:grasschest-east", "attributes": { "type": "grass" }  }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 12 }
+	}
+]

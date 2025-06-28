@@ -1,0 +1,9 @@
+{
+	"game:tabname-grasstoropes": "Grass to Ropes",
+	"item-grassbundle": "Grass bundle",
+	"itemdesc-grassbundle": "A bundle of dry grass, could be useful as a substitute for something?",
+	"block-grass-grasschest-*": "Grass chest",
+	"blockdesc-grasschest-*": "Used for storage.",
+	"item-grassbasket": "Grass hand basket",
+	"itemdesc-grassbasket": "Increases the amount of items you can carry",
+}

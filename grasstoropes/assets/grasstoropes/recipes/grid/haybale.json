@@ -1,0 +1,11 @@
+[
+	{
+		"ingredientPattern": "BB,BB",
+		"ingredients": {
+			"B": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "game:hay-normal-ud", "quantity": 1 }
+	}
+]

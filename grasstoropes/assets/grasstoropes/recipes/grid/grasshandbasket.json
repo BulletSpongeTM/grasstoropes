@@ -1,0 +1,21 @@
+[
+	{
+		"ingredientPattern": "B_B,BBB",
+		"ingredients": {
+			"B": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "grasstoropes:grassbasket" }
+	},
+	{
+		"ingredientPattern": "KB",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true },
+			"B": { "type": "item", "code": "grasstoropes:grassbasket" }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 5 }
+	}
+]
