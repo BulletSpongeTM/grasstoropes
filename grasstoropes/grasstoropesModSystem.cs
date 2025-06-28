@@ -22,37 +22,47 @@ namespace grasstoropes
             }
             api.Logger.Event("started 'Grass To Ropes' mod");
         }
-        public override void StartClientSide(ICoreClientAPI api)
+        public override void StartClientSide(ICoreClientAPI capi)
         {
-            base.StartClientSide(api);
-            handleFlax(api);
+            base.StartClientSide(capi);
+            handleFlax(capi);
+            //handleFirePitStarter(capi);
         }
-        public override void StartServerSide(ICoreServerAPI api)
+        public override void StartServerSide(ICoreServerAPI sapi)
         {
-            base.StartServerSide(api);
-            handleFlax(api);
+            base.StartServerSide(sapi);
+            handleFlax(sapi);
+            //handleFirePitStarter(sapi);
         }
         private void handleFlax(ICoreAPI api)
         {
             var recipeCode = new AssetLocation("grasstoropes:recipes/grid/flaxfibers.json");
             if (!ModConfig.flaxEnabled)
             {
-                api.Logger.Notification("[Grass To Ropes] Disabling Bundle to Flax Fiber recipe per config.");
+                //api.Logger.Notification("[Grass To Ropes] Disabling Bundle to Flax Fiber recipe per config.");
                 var recipe = api.World.GridRecipes.FirstOrDefault(r => r.Name.Equals(recipeCode));
                 if (recipe != null)
                 {
                     recipe.Enabled = false;
-                    api.Logger.Notification($"[Grass To Ropes] Recipe {recipeCode} has been disabled.");
+                    //api.Logger.Notification($"[Grass To Ropes] Recipe {recipeCode} has been disabled.");
                 }
                 else
                 {
-                    api.Logger.Warning($"[Grass To Ropes] Couldn't find a grid recipe named {recipeCode} to disable.");
+                    //api.Logger.Warning($"[Grass To Ropes] Couldn't find a grid recipe named {recipeCode} to disable.");
                 }
             }
             else
             {
-                api.Logger.Notification("[Grass To Ropes] Bundle to Flax Fiber recipe enabled per config.");
+                //api.Logger.Notification("[Grass To Ropes] Bundle to Flax Fiber recipe enabled per config.");
             }
         }
+        /*private void handleFirePitStarter(ICoreAPI api) // TODO
+        {
+            if (!ModConfig.firePitStarter)
+            {
+            } else
+            {
+            }
+        }*/
     }
 }
