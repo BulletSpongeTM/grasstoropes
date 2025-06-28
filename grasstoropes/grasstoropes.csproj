@@ -64,7 +64,7 @@
 			<CorrectText>@(FileContents->'%(Identity)', '%0a%0d')</CorrectText>
 			<CorrectVersionNumber>$([System.Text.RegularExpressions.Regex]::Match($(CorrectText), `\d+\.\d+\.\d+`))</CorrectVersionNumber>
 		</PropertyGroup>
-		<Move SourceFiles="$(TargetDir)\..\$(TargetName).zip" DestinationFiles="$(TargetDir)$(TargetName)_v$(CorrectVersionNumber).zip" />
+		<Move SourceFiles="$(TargetDir)\..\$(TargetName).zip" DestinationFiles="$(TargetDir)$(TargetName)-v$(CorrectVersionNumber).zip" />
 		<Message Importance="high" Text="Created zip file at $(TargetDir)$(TargetName)_v$(CorrectVersionNumber).zip" />
 	</Target>
 	
