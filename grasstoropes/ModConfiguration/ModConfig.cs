@@ -3,5 +3,5 @@
 public class ModConfig
 {
     public bool flaxEnabled { get; set; } = false;
-    //public bool firePitStarter { get; set; } = true; //TODO
+    public bool usedAsFirePitStarter { get; set; } = false;
 }
