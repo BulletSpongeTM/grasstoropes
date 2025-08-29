@@ -4,14 +4,18 @@
 		"ingredients": {
 			"L": { "type": "item", "code": "grasstoropes:grassbundle" },
 			"C": { "type": "item", "code": "game:clay-*" },
-			"B": { "type": "block", "code": "game:bowl-fired" }
+			"B": { "type": "block", "code": "game:bowl-*-fired" }
 		},
 		"attributes": {
 			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresContent": {
+					"type": "item",
+					"code": "game:honeyportion"
+				},
 				"requiresLitres": 0.25
 			}
 		},
+		"name": "skep",
 		"width": 3,
 		"height": 3,
 		"output": { "type": "item", "code": "game:beenade-opened"  }

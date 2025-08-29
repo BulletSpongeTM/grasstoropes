@@ -14,7 +14,7 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 2 },
 			"S": { "type": "item", "code": "game:powder-sulfur" },
-			"B": { "type": "block", "code": "game:bowl-fired" }
+			"B": { "type": "block", "code": "game:bowl-*-fired" }
 		},
 		"attributes": {
 			"liquidContainerProps": {

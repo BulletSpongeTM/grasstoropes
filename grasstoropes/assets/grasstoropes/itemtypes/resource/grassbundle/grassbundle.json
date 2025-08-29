@@ -10,7 +10,28 @@
 		"base": "grasstoropes:item/grassbundle.json" 
 	},
 	"behaviors": [
-		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/plant",
+				"stackingModel": "grasstoropes:item/grassbundle-pile",
+				"upSolid": false,
+				"modelItemsToStackSizeRatio": 15,
+				"stackingCapacity": 16,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.125,
+					"z2": 1
+				},
+				"cbScaleYByLayer": 0.35
+			}
+		}
 	],
 	"attributes": {
 		"placeSound": "game:block/plant",

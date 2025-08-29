@@ -26,7 +26,7 @@ namespace grasstoropes {
 
         public override void StartClientSide(ICoreClientAPI capi) {
             base.StartClientSide(capi);
-            handleFlax(capi);
+            //handleFlax(capi);
         }
 
         public override void StartServerSide(ICoreServerAPI sapi) {
