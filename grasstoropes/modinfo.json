@@ -4,7 +4,7 @@
     "Version": "1.2.0",
     "Description": "Expands crafting of dry grass, as a substitute for most cattail recipes.\n\nFor Zaldarr.\n",
     "ModID": "grasstoropes",
-    "Authors": ["BulletSponge\n"],
+    "Authors": ["BulletSponge"],
     "RequiredOnClient": true,
     "RequiredOnServer": true,
     "Dependencies": {}
