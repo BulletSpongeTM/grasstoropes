@@ -2,7 +2,7 @@
 	{
 		"ingredientPattern": "_B_,BBB,_B_",
 		"ingredients": {
-			"B": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 3 }
+			"B": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 2 }
 		},
 		"width": 3,
 		"height": 3,

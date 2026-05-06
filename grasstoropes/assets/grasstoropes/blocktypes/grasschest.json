@@ -2,6 +2,7 @@
 	"code": "grasschest",
 	"class": "BlockGenericTypedContainer",
 	"entityclass": "GenericTypedContainer",
+	"entityBehaviors": [{ "name": "Animatable" }],
 	"attributes": {
 		"inventoryClassName": "basket",
 		"defaultType": "grass",
@@ -27,10 +28,10 @@
 			"grass": "basket"
 		},
 		"shape": {
-			"grass": "game:block/reed/basket-normal"
+			"grass": "game:block/reed/basket-reed"
 		},
 		"creatureContainedShape": {
-			"grass": "game:block/reed/basket-full"
+			"grass": "game:block/reed/basket-reed-full"
 		},
 		"variantByGroup": "side",
 		"variantByGroupInventory": null
@@ -42,7 +43,6 @@
 		{"name": "Container"}, 
 		{"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" }}
 	],
-	"entityBehaviors": [{ "name": "Animatable" }],
 	"variantgroups": [
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
@@ -58,15 +58,9 @@
 		]
 	},
 	"heldTpIdleAnimation": "holdunderarm",
-	"shapeInventory": { "base": "game:block/reed/basket-normal", "rotateY": 270 },
-	"shapeByType": {
-		"*-north": { "base": "game:block/reed/basket-normal", "rotateY": 0 },
-		"*-east": { "base": "game:block/reed/basket-normal", "rotateY": 270 },
-		"*-west": { "base": "game:block/reed/basket-normal", "rotateY": 90 },
-		"*-south": { "base": "game:block/reed/basket-normal", "rotateY": 180 }
-	},
+	"shapeInventory": { "base": "game:block/reed/basket-reed", "rotateY": 270 },
 
-	"_comment": "Must declare textures so they get added to the block texture atlas",
+	//"Must declare textures so they get added to the block texture atlas"
 	"textures": {
 		"grass-sidesWE": { "base": "grasstoropes:block/grasschest-westeast" },
 		"grass-sidesSN": { "base": "grasstoropes:block/grasschest-northsouth" },

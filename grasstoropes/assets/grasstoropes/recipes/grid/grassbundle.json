@@ -1,11 +1,12 @@
 [
 	{
-		"ingredientPattern": "DD",
+		"ingredientPattern": "D__,_D_,__D",
 		"ingredients": {
 			"D": { "type": "item", "code": "game:drygrass", "quantity": 1 }
 		},
-		"width": 2,
-		"height": 1,
+		"width": 3,
+		"height": 3,
+    "shapeless": false,
 		"output": { "type": "item", "code": "grasstoropes:grassbundle", "quantity": 1 }
 	},
 	{
@@ -16,7 +17,7 @@
 		},
 		"width": 2,
 		"height": 1,
-		"output": { "type": "item", "code": "game:drygrass", "quantity": 2 }
+		"output": { "type": "item", "code": "game:drygrass", "quantity": 3 }
 	},
 	{
 		"ingredientPattern": "KB",
@@ -26,6 +27,6 @@
 		},
 		"width": 2,
 		"height": 1,
-		"output": { "type": "item", "code": "game:drygrass", "quantity": 2 }
+		"output": { "type": "item", "code": "game:drygrass", "quantity": 3 }
 	}
 ]
