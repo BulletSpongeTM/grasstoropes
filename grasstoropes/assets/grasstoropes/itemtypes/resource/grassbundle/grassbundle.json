@@ -1,6 +1,5 @@
 {
 	"code": "grassbundle",
-	"class": "ItemDryGrass",
 	"creativeinventory": { 
 		"general": [ "*" ],
 		"items": ["*"],
