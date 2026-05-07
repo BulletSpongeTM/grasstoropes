@@ -1,7 +1,7 @@
 {
     "Type": "code",
     "Name": "Grass to Ropes",
-    "Version": "1.2.2",
+    "Version": "1.2.3",
     "Description": "Expands crafting of dry grass, as a substitute for most cattail recipes.\n\nFor Zaldarr.\n",
     "ModID": "grasstoropes",
     "Authors": ["BulletSponge"],
