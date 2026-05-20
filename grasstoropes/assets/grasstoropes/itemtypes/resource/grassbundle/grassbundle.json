@@ -33,6 +33,7 @@
 		}
 	],
 	"maxstacksize": 64,
+	"storageFlags": 257,
 	"materialDensity": 258,
 	"combustibleProps": {
 		"burnTemperature": 600,

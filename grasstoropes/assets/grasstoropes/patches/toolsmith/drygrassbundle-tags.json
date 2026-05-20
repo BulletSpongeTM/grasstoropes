@@ -1,0 +1,9 @@
+[
+  {
+    "op": "addmerge",
+    "file": "grasstoropes:itemtypes/resource/grassbundle/grassbundle.json",
+    "path": "/tags",
+    "value": [ "toolsmith-part", "toolsmith-binding" ],
+    "dependsOn": [ { "modid": "toolsmith" } ]
+  }
+]
